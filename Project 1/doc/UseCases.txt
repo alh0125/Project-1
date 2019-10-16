@@ -1,0 +1,41 @@
+Name: Add new product 1
+Brief Description: Starts when the user clicks the add product button and ends when they press ok and add. Adds a new product with all its attributes to a sqlite table
+Actors: the user
+Preconditions: the user must have a valid name and attributes
+Basic Flow: it moves from the main menu to the add product page and the entered info is put into a sql database
+Postconditions: the info must be in a sql database which can be accessed later
+
+Name: Add new product 2
+Brief Description: Starts when the user clicks the add product button and ends when they press ok and add. Adds a new product with all its attributes to a sqlite table but the user has entered invalid info
+Actors: the user
+Preconditions: the user must have a valid name and attributes when they do not then the action notifies them
+Basic Flow: it moves from the main menu to the add product page and the entered info is incorrect so the application notifies them
+Postconditions: the user must enter new correct info
+
+Name: Add new customer 1
+Brief Description: Starts when the user clicks the add customer button and ends when they enter valid info and they hit add. Adds a new customer with all its attributes to a sqlite table
+Actors: the user
+Preconditions: the user must have a valid customer and attributes
+Basic Flow: it moves from the main menu to the add customer page and the entered info is put into a sql database
+Postconditions: the info must be in a sql database which can be accessed later
+
+Name: Add new customer 2
+Brief Description: Starts when the user clicks the add customer button and ends when they press ok and add. Adds a new customer with all its attributes to a sqlite table but the user has entered invalid info
+Actors: the user
+Preconditions: the user must have a valid name and attributes when they do not then the action notifies them
+Basic Flow: it moves from the main menu to the add customer page when the invalid info is entered the app notifies them and they need to enter in new info
+Postconditions: the user must enter new correct info
+
+Name: Add new purchase 1
+Brief Description: Starts when the user clicks the add purchase button and ends when they press ok and add. Adds a new purchase with all its attributes to a sqlite table
+Actors: the user
+Preconditions: the user must have a valid name and attributes
+Basic Flow: it moves from the main menu to the add purchase page and the entered info is put into a sql database
+Postconditions: the info must be in a sql database which can be accessed later
+
+Name: Add new purchase 2
+Brief Description: Starts when the user clicks the add purchase button and ends when they press ok and add. Adds a new purchase with all its attributes to a sqlite table but the user has entered invalid info
+Actors: the user
+Preconditions: the user must have a valid name and attributes when they do not then the action notifies them
+Basic Flow: it moves from the main menu to the add purchase page and the entered info is incorrect so the application notifies them
+Postconditions: the user must enter new correct info
